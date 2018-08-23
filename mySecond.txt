@@ -1,9 +1,14 @@
 using System;
+using System.Windows.Form;
 
 namespace Second
 {
   static class Program
   {
+    static void Func1()
+    {
+      MessageBox.Show("Hi!");
+    }
     static void Main()
     {
       Console.WriteLine("Hello, world!);
